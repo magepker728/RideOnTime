@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="assignment3.abdoulkarim.cosc431.towson.edu.rideontime.WelcomeActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp"
+        app:srcCompat="@drawable/capture" />
+
+    <Button
+        android:id="@+id/driver_btn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/customer_btn"
+        android:layout_alignStart="@+id/customer_btn"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="31dp"
+        android:text="I'm a Driver" />
+
+    <Button
+        android:id="@+id/customer_btn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/driver_btn"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="31dp"
+        android:text="I'm a Customer" />
+</RelativeLayout>

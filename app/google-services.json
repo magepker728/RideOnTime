@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "125950121354",
+    "firebase_url": "https://rideontimerot.firebaseio.com",
+    "project_id": "rideontimerot",
+    "storage_bucket": "rideontimerot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125950121354:android:92fc9e1aea263935",
+        "android_client_info": {
+          "package_name": "assignment3.abdoulkarim.cosc431.towson.edu.rideontime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "125950121354-1es23emkucat6al8f72ak7f39c58kau4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "assignment3.abdoulkarim.cosc431.towson.edu.rideontime",
+            "certificate_hash": "7a8183eea23f880ef7f835787b954d9ec7681c49"
+          }
+        },
+        {
+          "client_id": "125950121354-he2krsanmk6vi3vnbicvs8hktscip4kq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6lhHJR_LyHCRjF3XelCR2qykUasOIbig"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "125950121354-he2krsanmk6vi3vnbicvs8hktscip4kq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

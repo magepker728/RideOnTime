@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundtwo"
+    tools:context="assignment3.abdoulkarim.cosc431.towson.edu.rideontime.CustomerLogin">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/translogo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/customer_login_btn"
+        android:layout_alignStart="@+id/customer_login_btn"
+        android:layout_below="@+id/imageView3"
+        android:layout_marginTop="19dp"
+        android:text="Customer Login" />
+
+    <EditText
+        android:id="@+id/customer_email"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/customer_password"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/customer_email"
+        android:layout_alignStart="@+id/customer_email"
+        android:layout_below="@+id/customer_email"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/customer_login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/customer_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="LOGIN" />
+
+    <TextView
+        android:id="@+id/customer_noaccount_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/customer_login_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="Dont have an Account?"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/customer_register_btn"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/customer_password"
+        android:layout_alignStart="@+id/customer_password"
+        android:layout_below="@+id/customer_noaccount_status"
+        android:layout_marginTop="25dp"
+        android:text="REGISTER" />
+</RelativeLayout>
